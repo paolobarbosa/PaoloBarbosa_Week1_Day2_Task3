@@ -1,0 +1,29 @@
+/* UserForm.css */
+.container {
+    margin-top: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .form {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+  
+  .error-text {
+    color: red;
+    font-size: 0.875rem;
+  }
+  
+  .submit-button {
+    margin-top: 16px;
+  }
+  
+  .snackbar {
+    background-color: #4caf50;
+    color: white;
+  }
+  
